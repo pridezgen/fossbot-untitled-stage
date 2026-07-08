@@ -1,0 +1,21 @@
+{
+  "manifestVersion": 1,
+  "schemaVersion": 2,
+  "kind": "fossbot-stage",
+  "title": "Untitled Stage",
+  "description": "",
+  "author": {
+    "platformUsername": "a",
+    "githubUsername": "pridezgen"
+  },
+  "storage": {
+    "provider": "github_app",
+    "repoOwner": "pridezgen",
+    "repoName": "fossbot-untitled-stage"
+  },
+  "validation": {
+    "state": "unvalidated",
+    "commitSha": null,
+    "checkedAt": null
+  }
+}
