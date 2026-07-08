@@ -2,8 +2,8 @@
   "id": "",
   "title": "Untitled Stage",
   "description": "",
-  "createdAt": "2026-07-08T09:20:37.741Z",
-  "updatedAt": "2026-07-08T09:20:40.885Z",
+  "createdAt": "2026-07-08T09:20:08.405Z",
+  "updatedAt": "2026-07-08T09:21:43.061Z",
   "config": [
     {
       "type": "skybox",
@@ -29,6 +29,27 @@
         0,
         0
       ]
+    },
+    {
+      "type": "cylinder",
+      "dimensions": [
+        0.15,
+        0.15,
+        0.3,
+        32
+      ],
+      "material": {
+        "color": "#f44e3b"
+      },
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "name": "cylinder",
+      "castShadow": true,
+      "mass": 0,
+      "immovable": true
     }
   ],
   "editor": {
@@ -60,6 +81,27 @@
         0
       ]
     },
-    "objects": []
+    "objects": [
+      {
+        "id": "stage_mrbvc777_5b25vew",
+        "kind": "cylinder",
+        "semanticKind": "cylinder",
+        "name": "cylinder",
+        "position": [
+          0,
+          0.15,
+          0
+        ],
+        "dimensions": [
+          0.15,
+          0.15,
+          0.3,
+          32
+        ],
+        "color": "#f44e3b",
+        "mass": 0,
+        "immovable": true
+      }
+    ]
   }
 }
