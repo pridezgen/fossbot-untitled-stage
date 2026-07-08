@@ -3,7 +3,7 @@
   "title": "Untitled Stage",
   "description": "",
   "createdAt": "2026-07-08T09:20:08.405Z",
-  "updatedAt": "2026-07-08T09:21:43.061Z",
+  "updatedAt": "2026-07-08T14:43:04.340Z",
   "config": [
     {
       "type": "skybox",
@@ -50,6 +50,84 @@
       "castShadow": true,
       "mass": 0,
       "immovable": true
+    },
+    {
+      "type": "base",
+      "dimensions": [
+        0.5,
+        0.5
+      ],
+      "material": {
+        "color": "#43a047"
+      },
+      "position": [
+        0,
+        -1.1
+      ],
+      "name": "target"
+    },
+    {
+      "type": "text",
+      "name": "target_label",
+      "text": "target",
+      "position": [
+        0,
+        0.016,
+        -1.1
+      ],
+      "scale": 0.4,
+      "onFloor": true,
+      "color": "black",
+      "style": {
+        "backgroundVisible": true,
+        "backgroundColor": "#ffffff",
+        "backgroundOpacity": 0.9,
+        "borderVisible": true,
+        "borderColor": "#0f172a",
+        "borderWidth": 8,
+        "fontSize": 56
+      }
+    },
+    {
+      "type": "model",
+      "filename": "assets/6a17ba118ff66dc7.obj",
+      "format": "stl",
+      "position": [
+        0,
+        0,
+        -0.5
+      ],
+      "scale": 0.00255102,
+      "normalize": true,
+      "nativeDimensions": [
+        150.00000000000006,
+        196,
+        25
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9aa8b6",
+      "name": "Coffee Scale Holder",
+      "castShadow": true,
+      "mass": 0.4,
+      "immovable": false,
+      "collision": "convexHull"
+    },
+    {
+      "type": "fossbot",
+      "position": [
+        -0.7,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        -1.5708,
+        0
+      ]
     }
   ],
   "editor": {
@@ -101,6 +179,60 @@
         "color": "#f44e3b",
         "mass": 0,
         "immovable": true
+      },
+      {
+        "id": "stage_mrc6sbii_40ihtwh",
+        "kind": "fossbot",
+        "semanticKind": "robotSpawn",
+        "name": "robot spawn",
+        "position": [
+          -0.7,
+          0,
+          0
+        ],
+        "rotationY": -1.5708
+      },
+      {
+        "id": "stage_mrc6sgiu_mllzyes",
+        "kind": "base",
+        "semanticKind": "target",
+        "name": "target",
+        "position": [
+          0,
+          0,
+          -1.1
+        ],
+        "dimensions": [
+          0.5,
+          0.5
+        ],
+        "color": "#43a047"
+      },
+      {
+        "id": "stage_mrc6t6hq_f8ty566",
+        "kind": "model",
+        "semanticKind": "customObject",
+        "name": "Coffee Scale Holder",
+        "filename": "assets/6a17ba118ff66dc7.obj",
+        "format": "stl",
+        "originalFileName": "Coffee Scale Holder.stl",
+        "position": [
+          0,
+          0,
+          -0.5
+        ],
+        "rotationY": 0,
+        "scale": 0.00255102,
+        "normalize": true,
+        "nativeDimensions": [
+          150.00000000000006,
+          196,
+          25
+        ],
+        "color": "#9aa8b6",
+        "mass": 0.4,
+        "immovable": false,
+        "collision": "convexHull"
       }
     ]
   }
